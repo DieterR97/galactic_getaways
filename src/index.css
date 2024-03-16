@@ -1,289 +1,134 @@
-/* You can add global styles to this file, and also import other style files */
+/** ======================== Colours ========================= */
+/*? ========================================================= */
+
 :root {
-    --fallout-primary: #FFF281;
-    --fallout-secondary: #81E1FF;
-    --fallout-tertiary: #703A3A;
-    --fallout-white: #ffffff;
+    /* ###### Brand Colours ###### */
+    --Brand-Primary: #7920C2;
+    --Brand-Secondary: #F2994A;
 
-    --fallout-dark-grey: #616161;
-    --fallout-dark-grey2: #848484;
-    --fallout-dark-grey3: #1F1F1F;
-
-    --fallout-bg: #1E1E1E;
-    --fallout-bg-fade: rgba(7, 7, 7, 0.5);
-    --fallout-border-primary: #FFF281;
-    --fallout-border-secondary: #1F1F1F;
-    --fallout-border-tertiary: #848484;
-
-    --fallout-primary-hover: #b5ac58;
+    /* ###### Background Colours ###### */
+    --Background-Navy-1: #090011;
+    --Background-Navy-2: #11083E;
+    --Background-Navy-3: #180C60;
+    --Background-White: #FFFFFF;
 
 
-    --fallout-text-xxl: 1.728rem;
-    --fallout-text-xl: 1.44rem;
-    --fallout-text-lg: 1.2rem;
-    --fallout-text-md: 0.95rem;
-    --fallout-text-sm: 0.833rem;
-    --fallout-text-xs: 0.694rem;
-
-    --fallout-radius: 10px
+    --fallout-secondary: #;
+    --fallout-tertiary: #;
+    --fallout-white: #;
 }
 
-/* ======================== Colors ========================= */
-/* ========================================================= */
+/** ======================== Typography ========================= */
+/*? ========================================================= */
 
-.text-primary {
-    color: var(--fallout-border-primary) !important;
+/* ###### Heading ###### */
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-/* ======================== Buttons ======================== */
-/* ========================================================= */
-
-.btn-primary {
-    --bs-btn-color: black;
-    --bs-btn-bg: var(--fallout-primary);
-    --bs-btn-border-color: #0d6efd;
-    --bs-btn-hover-color: black;
-    --bs-btn-hover-bg: var(--fallout-primary-hover);
-    --bs-btn-hover-border-color: #0a58ca;
-    --bs-btn-focus-shadow-rgb: none;
-    --bs-btn-active-color: black;
-    --bs-btn-active-bg: var(--fallout-primary-hover);
-    --bs-btn-active-border-color: #0a53be;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #0d6efd;
+.headin1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 56px;
+    line-height: 61.6px;
 }
 
-.btn-secondary {
-    --bs-btn-color: var(--fallout-primary);
-    --bs-btn-bg: transparent;
-    --bs-btn-border-color: #0d6efd;
-    --bs-btn-hover-color: black;
-    --bs-btn-hover-bg: var(--fallout-primary);
-    --bs-btn-hover-border-color: #0a58ca;
-    --bs-btn-focus-shadow-rgb: none;
-    --bs-btn-active-color: black;
-    --bs-btn-active-bg: var(--fallout-primary-hover);
-    --bs-btn-active-border-color: #0a53be;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #0d6efd;
-    border: 1px solid var(--fallout-primary) !important;
+.headin2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    line-height: 52.8px;
 }
 
-.btn {
-    --bs-btn-padding-x: 0.75rem;
-    --bs-btn-padding-y: 0.375rem;
-    --bs-btn-font-family: ;
-    --bs-btn-font-size: 1rem;
-    --bs-btn-font-weight: 400;
-    --bs-btn-line-height: 1.5;
-    --bs-btn-border-width: var(--bs-border-width);
-    --bs-btn-border-color: transparent;
-    --bs-btn-border-radius: var(--bs-border-radius);
-    --bs-btn-hover-border-color: transparent;
-    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
-    --bs-btn-disabled-opacity: 0.65;
-    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
-    display: inline-block;
-    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
-    font-family: var(--bs-btn-font-family);
-    font-size: var(--bs-btn-font-size);
-    font-weight: var(--bs-btn-font-weight);
-    line-height: var(--bs-btn-line-height);
-    color: var(--bs-btn-color);
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    user-select: none;
-    border: none;
-    border-radius: var(--bs-btn-border-radius);
-    background-color: var(--bs-btn-bg);
-    transition: color 0.15s ease-in-out,
-        background-color 0.15s ease-in-out,
-        border-color 0.15s ease-in-out,
-        box-shadow 0.15s ease-in-out;
+.headin3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    line-height: 44px;
 }
 
-.login-btn {
-    width: 100%;
+.headin4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    line-height: 35.2px;
 }
 
-/* ======================== General ======================== */
-/* ========================================================= */
-
-body {
-    color: white;
-    background-color: var(--fallout-bg);
-    font-family: "Montserrat", sans-serif;
+.headin5 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    line-height: 26.4px;
 }
 
-.background {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--fallout-bg);
-    z-index: -50;
+.headin6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    line-height: 22px;
 }
 
-.bg-pattern {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: auto;
-    /* Adjust as needed */
-    background-repeat: no-repeat;
-    /* Adjust as needed */
-    opacity: 0.05;
-    /* Adjust the opacity to your preference */
-    z-index: -49;
+/* ###### Body ###### */
+
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+} */
+
+.largeBold {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 28px;
 }
 
-.bg-fade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80vh;
-    /* Adjust the height of the fade */
-    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.848));
-    z-index: -48;
-    /* Ensure the fade appears above the background */
+.largeRegular {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
 }
 
-a.small-link {
-    font-size: var(--fallout-text-xs);
-    text-decoration: none;
-    color: var(--fallout-dark-grey2);
-    display: block;
-    margin-top: 5px;
+.mediumBold {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 25.2px;
 }
 
-a.small-link:hover {
-    color: var(--fallout-primary);
+.mediumRegular {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 25.2px;
 }
 
-/* ======================= Utilities ======================= */
-/* ========================================================= */
-
-.heading {
-    font-size: var(--fallout-text-xxl);
-    font-weight: 300;
-    text-transform: uppercase;
+.normalBold {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 22.4px;
 }
 
-.text-xxl {
-    font-size: var(--fallout-text-xxl);
+.normalRegular {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
 }
 
-.text-xl {
-    font-size: var(--fallout-text-xl);
+.smallBold {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 19.6px;
 }
 
-.text-lg {
-    font-size: var(--fallout-text-lg);
+.smallRegular {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
 }
 
-.text-md {
-    font-size: var(--fallout-text-md);
-}
+/** ======================== Grid Systems ========================= */
+/*? ========================================================= */
 
-.text-sm {
-    font-size: var(--fallout-text-sm);
-}
 
-.text-xs {
-    font-size: var(--fallout-text-xs);
-}
-
-.font-weight-100 {
-    font-weight: 100;
-}
-
-.font-weight-300 {
-    font-weight: 300;
-}
-
-.font-weight-600 {
-    font-weight: 600;
-}
-
-.mb-10 {
-    margin-bottom: 10px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mb-60 {
-    margin-bottom: 60px;
-}
-
-.mt-10 {
-    margin-top: 10px;
-}
-
-.mt-20 {
-    margin-top: 20px;
-}
-
-.mt-30 {
-    margin-top: 30px;
-}
-
-.mt-60 {
-    margin-top: 60px;
-}
-
-.pt-200 {
-    padding-top: 200px;
-}
-
-/* ========================= Forms ======================== */
-/* ========================================================= */
-
-.login-logo {
-    height: 74px;
-    margin: auto;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
-    color: var(--fallout-white);
-    appearance: none;
-    background-color: var(--fallout-bg-fade);
-    background-clip: padding-box;
-    border: 1px solid var(--fallout-border-tertiary);
-    border-radius: var(--fallout-radius);
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.form-control:focus {
-    color: var(--fallout-white);
-    background-color: var(--fallout-bg-fade);
-    border-color: var(--fallout-primary);
-    outline: 0;
-    box-shadow: none;
-}
-
-.form-control::placeholder {
-    color: var(--fallout-dark-grey);
-    font-size: var(--fallout-text-md);
-}
-
-.form-label {
-    font-size: var(--fallout-text-xs);
-    color: var(--fallout-dark-grey2);
-}
