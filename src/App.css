@@ -1,14 +1,7 @@
-  /* #######################from 2 */
-
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-  }
-
-  :root {
-    --primary: #21abde;
   }
 
   .navbar {
@@ -36,11 +29,6 @@
     color: white;
     text-decoration: none;
     transition: .2s ease;
-  }
-
-  .navbar ul a:hover {
-    color: var(--primary);
-    color: #7920C2;
   }
 
   .content,
@@ -74,10 +62,6 @@
     padding: 0;
   }
 
-  :root {
-    --primary: #21abde;
-  }
-
   .navbar-nav-scroll {
     --bs-scroll-height: 100px;
   }
@@ -105,12 +89,12 @@
     /* position: relative; */
     /* width: 1620px; */
     /* height: 833px; */
-
+    height: 1061px;
   }
 
   .mask {
     height: 550px;
-    margin-top: 200px;
+    margin-top: 136px;
     width: Hug(714px);
     height: Hug(449px);
     top: 191px;
@@ -326,7 +310,7 @@
 
   .bg-image2 {
     width: 3430px;
-    height: 1373px;
+    height: 1119px;
     flex-shrink: 0;
     background-position: 60% 0;
   }
@@ -461,6 +445,7 @@
     height: 50px;
     background-color: transparent;
     color: white;
+    height: 51px;
   }
 
   .inputField:focus {
@@ -483,7 +468,6 @@
 
   .newsBTN {
     display: inline-flex;
-    padding: 16px 80px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -491,6 +475,14 @@
     background: var(--Secondary, #F2994A);
     transition: background 1.9s ease-out;
     transition: box-shadow 1.9s ease-out;
+    width: 184px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    font-family: Inter;
+    font-style: normal;
+    display: flex;
+    height: 55px;
   }
 
   .newsBTN:hover {
@@ -565,7 +557,12 @@
     flex-shrink: 0;
     position: absolute;
     bottom: 74px;
-    left: 90px;
+    /* left: 347px; */
+    left: 10%;
+  }
+
+  .middle-section {
+    height: 1061px;
   }
 
   .font-weight-bold {
@@ -626,6 +623,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 32px;
+    font-family: inter;
+    font-size: 33px;
   }
 
   .cta {
@@ -639,6 +639,9 @@
     line-height: 100px;
     /* 104.167% */
     letter-spacing: 5.76px;
+    margin-bottom: 32px;
+    font-size: 118px;
+    width: 760px;
   }
 
   .welcome {
@@ -650,6 +653,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 32px;
+    font-size: 22px;
+  }
+
+  .topBtns {
+    gap: 32px;
+    height: 55px;
   }
 
   .destination-btn {
@@ -671,10 +681,13 @@
     /* 140% */
   }
 
+  .planet-card {
+    width: 453px;
+  }
+
   .stay-btn {
     display: flex;
     width: 260px;
-    padding: 16px 80px;
     justify-content: center;
     align-items: center;
     gap: 10px;

@@ -14,6 +14,7 @@ import instagram from './images/instagram.png';
 import tiktok from './images/tiktok.png';
 import facebook from './images/facebook.png';
 import twitter from './images/twitter.png';
+
 function App() {
 
   const [activeLink, setActiveLink] = useState('link1');
@@ -82,100 +83,106 @@ function App() {
       {/* ==========================HERO IMAGE========================== */}
       <HeroImage2></HeroImage2>
 
-      {/* ==========================DESTINATION CARDS========================== */}
-      <h3 className='newSec' id='mid'>
-        A Stellar Selection
-      </h3>
 
-      <h5 className='newSec2'>
-        Explore three breathtaking destinations, each with its own unique charm and mystery.
-      </h5>
+      <div className='middle-section'>
+        {/* ==========================DESTINATION CARDS========================== */}
+        <h3 className='newSec' id='mid'>
+          A Stellar Selection
+        </h3>
 
-      <div className='container-fluid destC'>
-        <div className='row'>
+        <h5 className='newSec2'>
+          Explore three breathtaking destinations, each with its own unique charm and mystery.
+        </h5>
 
-          <div className='col-1'>
+        <div className='container-fluid destC'>
+          <div className='row'>
 
-          </div>
-
-          <div className='col-10'>
-
-            {/* <div className='container-fluid'>
-            </div> */}
-            <div class="row">
-
-              <div class="col-4 d-flex justify-content-center">
-                <div class="card w-100">
-
-                  <div class="card-body">
-                    <img src={mars} className='planet-img'></img>
-                  </div>
-
-                  <div class="card-footer d-flex flex-column justify-content-between">
-                    <div className='destination-heading'>
-                      Mars
-                    </div>
-                    <div className='seperation-container d-flex flex-column justify-content-center text-center'>
-                      <div className='seperation-line'>
-                      </div>
-                    </div>
-                    <small class="text-body-secondary w-100">Engage in thrilling activities like rover expeditions and marvel at the breathtaking Martian sunsets. Say hey to Elon!</small>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-4 d-flex justify-content-center">
-                <div class="card w-100">
-
-                  <div class="card-body">
-                    <img src={mars} className='planet-img'></img>
-                  </div>
-
-                  <div class="card-footer">
-                    <small class="text-body-secondary">Engage in thrilling activities like rover expeditions and marvel at the breathtaking Martian sunsets. Say hey to Elon!</small>
-                    <div className='seperation-container d-flex flex-column justify-content-center text-center'>
-                      <div className='seperation-line'>
-                      </div>
-                    </div>
-                    <div className='destination-heading'>
-                      Mars
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-4 d-flex justify-content-center">
-                <div class="card w-100">
-
-                  <div class="card-body">
-                    <img src={mars} className='planet-img'></img>
-                  </div>
-
-                  <div class="card-footer">
-                    <small class="text-body-secondary">Engage in thrilling activities like rover expeditions and marvel at the breathtaking Martian sunsets. Say hey to Elon!</small>
-                    <div className='seperation-container d-flex flex-column justify-content-center text-center'>
-                      <div className='seperation-line'>
-                      </div>
-                    </div>
-                    <div className='destination-heading'>
-                      Mars
-                    </div>
-                  </div>
-
-                </div>
-              </div>
+            <div className='col-1'>
 
             </div>
+
+            <div className='col-10 d-flex justify-content-center '>
+
+              {/* <div className='container-fluid'>
+            </div> */}
+              <div class="row">
+
+                <div class="col-4 d-flex justify-content-center planet-card">
+                  <div class="card w-100">
+
+                    <div class="card-body">
+                      <img src={mars} className='planet-img'></img>
+                    </div>
+
+                    <div class="card-footer d-flex flex-column justify-content-between">
+                      <div className='destination-heading'>
+                        Mars
+                      </div>
+                      <div className='seperation-container d-flex flex-column justify-content-center text-center'>
+                        <div className='seperation-line'>
+                        </div>
+                      </div>
+                      <small class="text-body-secondary w-100">Engage in thrilling activities like rover expeditions and marvel at the breathtaking Martian sunsets. Say hey to Elon!</small>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center planet-card">
+                  <div class="card w-100">
+
+                    <div class="card-body">
+                      <img src={saturn} className='planet-img'></img>
+                    </div>
+
+                    <div class="card-footer d-flex flex-column justify-content-between">
+                      <div className='destination-heading'>
+                        Saturn
+                      </div>
+                      <div className='seperation-container d-flex flex-column justify-content-center text-center'>
+                        <div className='seperation-line'>
+                        </div>
+                      </div>
+                      <small class="text-body-secondary w-100">Experience weightlessness as you float among Saturn's rings to witness the grandeur of the gas giant from close quarters.</small>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-4 d-flex justify-content-center planet-card">
+                  <div class="card w-100">
+
+                    <div class="card-body">
+                      <img src={pluto} className='planet-img'></img>
+                    </div>
+
+                    <div class="card-footer d-flex flex-column justify-content-between">
+                      <div className='destination-heading'>
+                        Pluto
+                      </div>
+                      <div className='seperation-container d-flex flex-column justify-content-center text-center'>
+                        <div className='seperation-line'>
+                        </div>
+                      </div>
+                      <small class="text-body-secondary w-100">Uncover the mysteries of the distant dwarf “planet” Pluto. Traverse its icy plains that resides on the outskirts of our solar system.</small>
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div className='col-1'>
+
+            </div>
+
           </div>
-
-          <div className='col-1'>
-
-          </div>
-
         </div>
       </div>
+
+
 
       {/* ==========================MOBILE APP BG IMAGE========================== */}
       <div class="ccontainer">
@@ -233,7 +240,7 @@ function App() {
               </div>
             </div>
             <div className='col-5'></div>
-            <div className='col-2'>
+            <div className='col-2 d-flex justify-content-center'>
               <ul className='links-footer'>
                 <span className='font-weight-bold'>Links</span>
                 <li><a href='#start'>Home</a></li>

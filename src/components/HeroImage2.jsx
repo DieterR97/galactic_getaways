@@ -31,10 +31,10 @@ export default function HeroImage2() {
                         <div className='d-flex justify-content-center align-items-center h-100'>
                             <div className='text-white'>
                                 <h4 className='q'>Tired Of Global Warming?</h4>
-                                <h1 className='cta'>Visit A
+                                <h1 className='cta'>Visit A<br></br>
                                     Different Planet</h1>
                                 <p className='welcome'>Welcome to Celestial Voyages, where your dreams of interplanetary exploration come to life. Join us in venturing beyond the stars, discovering the wonders of otherworldly landscapes.</p>
-                                <div className='d-flex flex-row justify-content-center text-center'>
+                                <div className='d-flex flex-row justify-content-center text-center topBtns'>
                                     <button type="button" class="destination-btn" onClick={scrollToElementM}>Destinations</button>
                                     <button type="button" class="stay-btn" onClick={scrollToElement}>Stay up-to date</button>
                                 </div>
