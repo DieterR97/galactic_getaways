@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import './index.css';
 import HeroImage2 from './components/HeroImage2';
-import Logo from './images/logo.png';
+import Logo from './images/Logo.png';
 import mars from './images/Mars.png';
 import pluto from './images/Pluto.png';
 import saturn from './images/Saturn.png';
