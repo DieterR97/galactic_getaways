@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20fc27be.css",
+    "main.js": "/static/js/main.c913e3b1.js",
+    "static/media/astronaut.png": "/static/media/astronaut.49fc42bcd999e267ab73.png",
+    "static/media/iPhone15.png": "/static/media/iPhone15.e18b69336783f73e6809.png",
+    "static/media/mobile_app_background.jfif": "/static/media/mobile_app_background.c0700d38a37aa4cda3a4.jfif",
+    "static/media/Header_background.jfif": "/static/media/Header_background.87834a4633c24eab1863.jfif",
+    "static/media/Saturn.png": "/static/media/Saturn.b1f69fbfada76b0df108.png",
+    "static/media/Pluto.png": "/static/media/Pluto.875ca08df86f2f036ff0.png",
+    "static/media/twitter.png": "/static/media/twitter.6d1eae12b5ef14d28cfe.png",
+    "static/media/Mars.png": "/static/media/Mars.4bcee1ef361cefd47e0c.png",
+    "static/media/instagram.png": "/static/media/instagram.6df24597c4804106f60f.png",
+    "static/media/logo.png": "/static/media/logo.4ae33eb9f93af5f58a8b.png",
+    "static/media/tiktok.png": "/static/media/tiktok.738cc48071cb38e00b09.png",
+    "static/media/facebook.png": "/static/media/facebook.f65a856c5c13dea8cd75.png",
+    "index.html": "/index.html",
+    "main.20fc27be.css.map": "/static/css/main.20fc27be.css.map",
+    "main.c913e3b1.js.map": "/static/js/main.c913e3b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20fc27be.css",
+    "static/js/main.c913e3b1.js"
+  ]
+}
